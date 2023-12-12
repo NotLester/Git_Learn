@@ -24,3 +24,9 @@ difference between git rm and git restore:
 'git remote add origin <LINK>' -> add local repo to github repository
 'git push <CONNECTION_NAME> <BRANCH_NAME>' -> pushes local repo to github repository.
 
+### Recommended practice
+-make changes
+- git add <files>
+- git commit 
+- git pull
+- git push 
