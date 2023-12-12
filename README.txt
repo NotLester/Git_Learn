@@ -14,3 +14,4 @@ Three areas in git:
 'git commit -m <MESSAGE>' -> make a version out of the current version ie moves files from staging tare to repository.
 'git log' -> Gives info of all versions of the project.
 'git restore <FILES>' -> All files are brought to latest committed area.
+'git restore --staged <FILES>' -> removes file from changes from staging area to working area.
