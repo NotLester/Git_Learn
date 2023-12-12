@@ -15,6 +15,12 @@ Three areas in git:
 'git restore <FILES>' -> All files are brought to latest committed area.
 'git restore --staged <FILES>' -> removes file from changes from staging area to working area.
 
-dff between git rm and git restore:
-if we wont to move whole file back to untracked state then do git rm, 
-else if u just want changes to be moved in working or staging area then use git restore.
+difference between git rm and git restore:
+    if we wont to move whole file back to untracked state then do git rm, 
+    else if u just want changes to be moved in working or staging area then use git restore.
+
+'git diff <V1> <V2>' -> shows difference in contents between 2 commits.
+
+'git remote add origin <LINK>' -> add local repo to github repository
+'git push <CONNECTION_NAME> <BRANCH_NAME>' -> pushes local repo to github repository.
+
