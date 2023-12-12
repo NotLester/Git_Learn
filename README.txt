@@ -2,9 +2,8 @@
            -> Also re-initializes repo
 
 'git status' -> Shows what files are tracked in the repository.
-            
-'git add <>' -> Move file from working area to staging area.
-'git rm --cached <>' -> Remove file from staging area to working area.
+'git add <FILES>' -> Move file from working area to staging area.
+'git rm --cached <FILES>' -> Remove file from staging area to working area.
 
 Three areas in git:
     1) Working Area: Untracked files are contained in this area.(areas not handled by git)
@@ -15,3 +14,7 @@ Three areas in git:
 'git log' -> Gives info of all versions of the project.
 'git restore <FILES>' -> All files are brought to latest committed area.
 'git restore --staged <FILES>' -> removes file from changes from staging area to working area.
+
+dff between git rm and git restore:
+if we wont to move whole file back to untracked state then do git rm, 
+else if u just want changes to be moved in working or staging area then use git restore.
